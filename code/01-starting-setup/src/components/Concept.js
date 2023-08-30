@@ -1,10 +1,10 @@
-function Concept({src, alt, title, desc}) {
+function Concept({ src, alt, title, desc }) {
     return (
-    <li className="concept">
-        <img src={src} alt={alt} />
+        <li className="concept">
+            <img src={src} alt={alt} />
             <h2>{title}</h2>
-        <p>{desc}</p>
-    </li>
+            <p>{desc}</p>
+        </li>
     );
 }
 
